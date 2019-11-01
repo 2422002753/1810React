@@ -1,0 +1,12 @@
+/*css模块写法*/
+.box {
+  background: red;
+}
+
+.boxTow {
+  background: blue;
+}
+
+.box h1 {
+  color: yellow;
+}

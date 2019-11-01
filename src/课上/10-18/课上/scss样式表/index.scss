@@ -1,0 +1,10 @@
+// scss文件解决了大部分的样式污染问题；
+// 起名字规则：模块功能名+样式类名+名字缩写+工号
+.home-box-sy001 {
+  h1 {
+    color: red;
+  }
+  .xxx {
+    background: blue;
+  }
+}

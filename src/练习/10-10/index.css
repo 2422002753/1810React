@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1000px;
+    margin: auto;
+}
+
+.top {
+    width: 100%;
+    border: 2px dashed #000;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+}
+
+.top li {
+    background: #d6d626;
+    height: 56px;
+    margin: 21px 0px;
+    padding: 0px 45px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 56px;
+}
+
+ul {
+    list-style: none;
+}
+
+.hulk {
+    border: 2px dashed #000;
+    min-height: 41px;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.hulk li {
+    background: red;
+    color: #fff;
+    font-size: 33px;
+    margin: 4px 12px;
+    text-align: center;
+}
+
+.hulkBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.hulk-left {
+    width: 530px;
+    height: 270px;
+    border: 2px dashed #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hulk-left-top {
+    margin-top: 29px;
+}
+
+.hulk-left li {
+    color: #fff;
+    font-size: 33px;
+    height: 50px;
+    background: green;
+}
+
+.hulk-right {
+    width: 450px;
+    height: 270px;
+    border: 2px dashed #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hulk-right li {
+    color: #fff;
+    font-size: 33px;
+    height: 50px;
+    background: rgb(4, 96, 139);
+}
+
+.kub {
+    border: 2px dashed #000;
+    min-height: 41px;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.kub li {
+    background: red;
+    color: #fff;
+    font-size: 33px;
+    margin: 4px 12px;
+    text-align: center;
+}
+
+.lang {
+    width: 101%;
+    margin-left: -3px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang li {
+    width: 40px;
+    height: 10px;
+    background: rgb(146, 140, 140);
+}
+
+.langBox {
+    margin-top: 17px;
+    width: 101%;
+    margin-left: -3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.langleft {
+    width: 490px;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.langleft li {
+    background: red;
+    color: #fff;
+    font-size: 33px;
+    height: 50px;
+    text-align: center;
+}
+
+.langright {
+    width: 490px;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.langright li {
+    background: red;
+    color: #fff;
+    font-size: 33px;
+    height: 50px;
+    text-align: center;
+}
+
+.kubBox {
+    width: 100%;
+    min-height: 300px;
+    margin-top: 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kubul1 {
+    border: 2px dashed #000;
+    width: 100px;
+    height: 300px;
+}
+
+.kubul1 li {
+    background: rgb(255, 102, 0);
+    color: #fff;
+    font-size: 33px;
+    width: 265px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    transform: rotate(90deg);
+    top: 115px;
+    left: -82px;
+}
+
+.kubul2 {
+    border: 2px dashed #000;
+    width: 400px;
+    height: 300px;
+}
+
+.kubul2 li {
+    color: #fff;
+    background: rgb(6, 94, 144);
+    font-size: 33px;
+}
+
+.kubul3 {
+    width: 120px;
+    height: 300px;
+}
+
+.kubul4 {
+    border: 2px dashed #000;
+    width: 280px;
+    height: 300px;
+}
+
+.const {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.headTop {
+    width: 100%;
+    height: 80px;
+    border: 2px dashed #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.headpadd {
+    padding: 14px 48px;
+    background: rgb(255, 187, 50);
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 3px;
+}
+
+.buttonHead {
+    width: 98%;
+    height: 90%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    background: rgb(205, 93, 91);
+}
+
+.chest {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.leftChest {
+    width: 48%;
+    height: 180px;
+    border: 2px dashed #000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+.rightChest {
+    width: 46%;
+    height: 170px;
+    border: 2px dashed #000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+
+.chestText {
+    padding: 10px 22px;
+    background: rgb(47, 128, 35);
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    margin: 3px 2px;
+}
+
+.chestLeft {
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    background: rgb(30, 160, 240);
+    width: 120px;
+    height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.chestRight {
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    background: rgb(30, 160, 240);
+    width: 300px;
+    height: 40px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+.leg {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.legOne {
+    width: 117px;
+    height: 100%;
+    border: 2px dashed #000;
+    margin-right: 30px;
+    position: relative;
+}
+
+.legOneCon {
+    width: 260px;
+    height: 70px;
+    background: rgb(235, 125, 60);
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    line-height: 70px;
+    text-align: center;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 115px;
+    left: -70px;
+}
+
+.legTwo {
+    width: 320px;
+    height: 260px;
+    border: 2px dashed #000;
+    margin-right: 20px;
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legTwoTop {
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    background: rgb(70, 120, 180);
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.legTwoLeft {
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    background: rgb(70, 120, 180);
+    text-align: center;
+    padding: 30px 10px;
+    width: 125px;
+}
+
+.etcd {
+    width: 100%;
+    height: 46%;
+    border: 2px dashed #000;
+}
+
+.styleS {
+    width: 150px;
+    height: 300px;
+    padding: 0;
+    border: #fff;
+    align-items: flex-start;
+}
+
+.etcdText {
+    width: 50%;
+    height: 30%;
+    margin: 20px auto;
+    background: rgb(240, 115, 50);
+    font-weight: 600;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.legTwochang {
+    width: 100%;
+    height: 50px;
+    background: rgb(122, 178, 91);
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.legTwoduan {
+    width: 46%;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+}
+
+.topTop {
+    width: 100%;
+    height: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.topTopBack {
+    width: 40px;
+    height: 10px;
+    background: rgb(122, 122, 122);
+    border-radius: 2px;
+}
+
+.topLeft {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topLeftCon {
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+    background: rgb(50, 140, 37);
+    border-radius: 2px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.backTop {
+    width: 490px;
+    background: rgb(120, 120, 120);
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+}
+.wrap{
+    width: 1200px;
+    height: 100px;
+    background: #f4f4f4;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hezi{
+    width: 530px;
+    height: 26px;
+    border:  2px solid #ff0036;
+    margin: auto;
+}
+.sousuo{
+    float: left;
+    display: block;
+    color: #000;
+    font-weight: 900;
+    line-height: 17px;
+    width: 423px;
+    height: 17px;
+    padding: 5px 2px 4px 4px;
+    border-width: 0;
+    margin: 0;
+}
+.btn{
+    width: 101px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff0036;
+}
+a{
+    color: #3366cc;
+    font-size: 12px;
+    text-decoration: none;
+}
+p{
+    color: #333333;
+    font-size: 12px;
+    margin-top: 20px;
+}

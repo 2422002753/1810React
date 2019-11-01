@@ -1,0 +1,12 @@
+.hide {
+  // >子级选择器
+  > ul {
+    display: none;
+  }
+}
+
+/*
+.hide>ul {
+
+}
+*/

@@ -1,0 +1,55 @@
+.boby{
+    width: 800px;
+    margin: 50px auto;
+}
+span{
+    width: 80px;
+    text-align: right;
+}
+label{
+    display: flex;
+    margin-bottom: 10px;
+}
+input{
+    width: 500px;
+    height: 25px;
+    margin-left: 15px;
+}
+img{
+    width: 35px;
+    height: 28px;
+}
+.radio{
+    width: 30px;
+    height: 15px;
+}
+.file{
+    width: 70px;
+    margin-left: 0;
+    height: 35px;
+    display: none;
+}
+.disfile{
+    width: 468px;
+    background: #fff;
+    border:1px #ccc solid;
+}
+textarea{
+    
+    margin-left: 15px;
+    resize: none;
+}
+.check{
+    width: 30px;
+    height: 15px;
+}
+.lick{
+    display: flex;
+  
+}
+.sex{
+    width: 20px;
+}
+.location{
+    margin-left: 15px;
+}

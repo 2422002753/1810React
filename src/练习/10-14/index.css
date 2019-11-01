@@ -1,0 +1,136 @@
+.home{
+	flex-wrap: wrap;
+	width: 994px;
+	height: 610px;
+	border: 3px solid rgb(5, 3, 119);
+	background: greenyellow;
+	margin: auto;
+}
+.input-top{
+	margin: 0 auto;
+	width: 970px;
+	height: 215px;
+}
+.input-top input{
+	margin: 0 auto;
+	margin: 25px 0 30px -3px;
+	padding: 20px 0 20px 350px;
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	height: 40px;
+	background: blueviolet;
+	width: 620px;
+	border: 3px solid rgba(27, 71, 1, 0.87);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */ 
+			color: white;
+		}
+		::-moz-placeholder { /* Firefox 19+ */  
+			color: white;
+		}
+		:-ms-input-placeholder { /* IE 10+ */ 
+		 color: white;
+		}
+		:-moz-placeholder { /* Firefox 18- */ 
+		 color: white;
+		}
+.input-button{
+	width: 124px;
+    height: 45px;
+	font-weight: 300;
+	font-size: 25px;
+	margin-left: 843px;
+	color: white;
+	background: rgba(236, 38, 24, 0.719);
+	border: 3px solid rgba(121, 0, 0, 0.87);
+}
+.list-big{
+	width: 845px;
+	padding: 15px 80px 15px 30px;
+	margin: 0 12px 0 18px;
+	height: 320px;
+	background: rgba(137, 25, 141, 0.719);
+	border: 3px solid rgba(58, 0, 50, 0.87);
+}
+.list-content{
+	display: flex;
+	width: 100%;
+	padding: 3px;
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	border: 3px solid rgb(5, 3, 119);
+	background: rgb(91, 99, 211);
+}
+.list-content div span{
+	color: red;
+	font-weight: 400;
+}
+.list-lump{
+	margin-right: 100px;
+}
+.list-RemoveAll{
+	width: 200px;
+	margin-top: 3px;
+	color: white;
+	font-weight: 300;
+	height: 30px;
+	line-height: 25px;
+	font-size: 25px;
+	background: rgba(236, 38, 24, 0.719);
+	border: 3px solid rgba(121, 0, 0, 0.87);
+}
+.list-find{
+	margin-top: 3px;
+	width: 170px;
+	color: white;
+	font-weight: 300;
+	height: 22px;
+	line-height: 25px;
+	font-size: 25px;
+	padding-left: 30px;
+	background: rgba(236, 38, 24, 0.719);
+	border: 3px solid rgba(121, 0, 0, 0.87);
+	border-right: none;
+}
+.list-findBtn{
+	margin-top: 3px;
+	margin-right: 100px;
+	height: 30px;
+	line-height: 22px;
+	font-size: 23px;
+	font-weight: 300;
+	border-radius: 5px;
+	background: rgb(223, 122, 113);
+	border: 2px solid rgba(121, 0, 0, 0.87);
+}
+.Top30{
+	margin-top: 30px;
+}
+.list-content-LY{
+	width: 100%;
+	padding: 3px;
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	border: 3px solid rgb(5, 3, 119);
+	background: rgb(91, 99, 211);
+}
+.list-font{
+	height: 50px;
+	color: white;
+	font-weight: 400;
+	font-size: 25px;
+}
+.list-remove{
+	width: 45px;
+	margin: 3px 0;
+	height: 45px;
+	background: rgba(236, 38, 24, 0.719);
+	border: 3px solid rgba(121, 0, 0, 0.87);
+	color: white;
+	font-weight: 300;
+	float: right;
+	font-size: 25px;
+}

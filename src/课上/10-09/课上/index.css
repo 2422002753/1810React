@@ -1,0 +1,37 @@
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.font20 {
+  font-size: 20px;
+}
+
+/* TODO:1000px安全布局 */
+.wrap {
+  width: 1000px;
+  margin: auto;
+}
+
+.header {
+  height: 100px;
+  line-height: 100px;
+  font-size: 18px;
+  text-align: center;
+  background: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  min-height: 400px;
+  background: green;
+}
+
+.footer {
+  height: 200px;
+  background: gray;
+  line-height: 200px;
+  text-align: center;
+}

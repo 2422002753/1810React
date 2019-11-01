@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*公共样式*/
+.flex {
+  display: flex;
+}
+ul {
+  list-style: none;
+}

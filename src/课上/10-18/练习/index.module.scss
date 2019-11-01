@@ -1,0 +1,9 @@
+.homeBoxSy001 {
+  // :global全局  :local本地
+  :global(.ant-menu-dark) {
+    background: red;
+  }
+  :global(.ant-layout-header) {
+    background: red;
+  }
+}

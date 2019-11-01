@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.slider{
+	position: relative;
+	overflow: hidden;
+	height: 300px;
+}
+.slider .inner{
+	position: absolute;
+	display: flex;
+}
+.slider .inner li{
+	float: left;
+	width: 100vw;
+	height: 300px;
+	text-align: center;
+	font-size: 60px;
+	line-height: 300px;
+}

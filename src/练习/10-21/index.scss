@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.hide{
+	>ul{
+		display: none;
+	}
+}
+.show{
+	>ul{
+		display: block;
+	}
+}
+.home{
+	background: #1a6cb9;
+	width: 200px;
+	margin: auto;
+}
+.home>ul>li>p{
+	padding-left: 50px;
+	line-height: 45px;
+	height: 45px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	color: white;
+}
+.list-ul p{
+	cursor:pointer ;
+	padding-left: 50px;
+	line-height: 45px;
+	height: 45px;
+	color: white;
+}
+.list-p {
+	transition:background 1.2s;
+}
+.list-p:hover{
+	background: rgba(93, 157, 221, 0.979);
+}
